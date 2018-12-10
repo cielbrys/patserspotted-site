@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://lh3.googleusercontent.com/BIWvUwE4IUmcouTAHcr_Y_BEgXVHTKWGdRp8ulv84jirUtjhtLedq4DqxDOVFZqQrt8QOdR4mzKvx6cr5o3gCXz-uUJDwmxXi6MYZFxzqvo0sT0cx8kMjuRpxn6afzPRv4GbSRUuVQ=w2400">
+    <title>Patser Spotted</title>
+</head>
+
+<body>
+    <header class="head">
+        <img class="head__image" src='https://lh3.googleusercontent.com/2SESBNtAY_PTIvxGmQic7VVRRB0GsmaaJ5cH-FIQQ5DOhb614OOSVYCIe8K_9h7kuAaxWTfZmHA9utMI83llvH14p6nmfVxPMH9_6_BxxmZE01cFNYo2IJPGLJVfLBePnQJ-JhClig=w2400' /></a>
+        <div class="sub">
+            <h1 class="head__title"><span class="head__patser">Patser</span> Spotted</h1>
+            <nav class="head__navigatie">
+                <a class="head__link" href="https://www.instagram.com/patser_spotted/" target="_blank">Instagram</a>
+                <a class="head__link" href="https://www.facebook.com/patserSpotted/" target="_blank">Facebook</a>
+                <a class="head__link" href="../index.html">Home</a>
+                <a class="head__link" href="/pages/patserGame.html">Patser Game</a>
+            </nav>
+        </div>
+        <article class="about__text">
+            <h2 class="about__text--title">About Us</h2>
+            <p>
+                You can find some funny video edits or photo's ! <br>
+                we also make photoshops of people with the glasses on ! <br>
+                Ow yeah everthing is with small round glasses, hope you don't mind.
+            </p>
+        </article>
+
+
+        <footer class="footer">
+            <p class="footer__text"> &copy; patser spotted </p>
+            <p class="footer__text">-</p>
+            <p>site made by ciel brys</p>
+        </footer>
+    </header>
+    <style>
+        @font-face {
+            font-family: "bavro";
+            src: url("bavro-regular-webfont.woff2") format("woff2");
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+            box-sizing: inherit;
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            font-family: 'bavro';
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            background-color: #DD92B4
+        }
+
+        .head {
+            margin: auto auto;
+            width: 96rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        .head__image {
+            margin: 3rem;
+            animation: scale 7s infinite;
+        }
+
+        @keyframes scale {
+            0% {
+                transform: scale(0.9);
+            }
+
+            50% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0.9);
+            }
+        }
+
+        .sub {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .head__title {
+            margin: 2rem auto;
+            text-align: center;
+            font-size: 10rem;
+            color: aquamarine;
+            cursor: default;
+        }
+
+        .head__patser {
+            color: #3B8DBA
+        }
+
+        .head__list {
+            list-style: none;
+            display: flex;
+            margin: 2rem;
+        }
+
+        .head__link {
+            text-decoration: none;
+            color: aquamarine;
+            margin: 2.5rem;
+            transition: ease-in 0.2s;
+            padding: 1rem;
+            border-radius: 3rem;
+        }
+
+        .head__link:hover {
+            background-color: #3B8DBA;
+        }
+
+        .about__text {
+            cursor: default;
+            font-size: 2rem;
+            padding: 2rem;
+            text-align: center;
+            line-height: 1.3;
+            display: flex;
+            flex-flow: column;
+        }
+
+        .about__text--title {
+            display: none;
+        }
+
+        .footer {
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer__text {
+            margin-right: 3rem
+        }
+    </style>
+</body>
+
+</html>

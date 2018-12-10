@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "bavro";
+    src: url("/assets/fonts/bavro-regular-webfont.woff2") format("woff2"),
+    url("/assets/fonts/bavro-regular-webfont.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: inherit;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'bavro';
+    background-color: #DD92B4;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    margin: auto auto;
+    width: 96rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.head__image {
+    margin: 3rem;
+    animation: scale 7s infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.sub {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.head__title {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 10rem;
+    color: aquamarine;
+    cursor: default;
+}
+
+.head__patser {
+    color: #3B8DBA
+}
+
+.head__list {
+    list-style: none;
+    display: flex;
+    margin: 2rem;
+}
+
+.head__link {
+    text-decoration: none;
+    color: aquamarine;
+    margin: 2.5rem;
+    transition: ease-in 0.2s;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.head__link:hover {
+    background-color: #3B8DBA;
+}
+
+.about__text {
+    cursor: default;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.3;
+    display: flex;
+    flex-flow: column;
+}
+
+.about__text--title {
+    display: none;
+}
+
+.footer {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__text {
+    margin-right: 3rem
+}
+
+.top {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.top__link {
+    text-decoration: none;
+    color: aquamarine;
+    margin: 2.5rem;
+    transition: ease-in 0.2s;
+    padding: 1rem;
+    border-radius: 3rem;
+
+}
+
+.top__link:hover {
+    background-color: #3B8DBA;
+
+}
+
+.top__text {
+    font-size: 4rem;
+    margin-top: 3.5rem;
+}
+
+.game {
+    height: 100%;
+    margin: 2rem;
+    display: grid;
+
+    grid-template-columns: 86rem;
+}
+
+
+.head-Game {
+    z-index: 3;
+    grid-row: 1;
+    grid-column: 1;
+    width: 86rem;
+    height: 48rem;
+    display: grid;
+    grid-template-columns: repeat(5, 17.2rem);
+    grid-template-rows: repeat(5, 9.6rem);
+    background-image: url("https://lh3.googleusercontent.com/vFsyF19UiUJD5YaqVgykJDDo94wJ05v3JsQTFT1IddfOKVazTsgA_I1v6Zdks4WhE61EknDiN9mtB7zdE8HXIByIAfw8UhMpdsuQ5DrgqXoa_aihnbzPC2GB535vfgOuIYK_iKD-3Q=w2400")
+}
+
+.head-Game__child {
+    background-color: aquamarine;
+    opacity: 1;
+    border: #3B8DBA solid 0.3rem;
+}
+
+.foto {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 0;
+}
+
+.Winner {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+}
+
+.text {
+    font-size: 10rem;
+    text-align: center;
+    color: #DD92B4;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 0px aquamarine;
+}
+
+.loser {
+    background-color: rgba(0, 0, 0, 0.6);
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 2;
+}
+
+.pogingen {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.tryAigan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: aquamarine;
+    height: 5rem;
+    transition: ease-in 0.2s;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 20rem;
+    margin: 1rem auto;
+
+}
+
+.tryAigan:hover {
+    background-color: #3B8DBA;
+}
+
+.centerAll{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
