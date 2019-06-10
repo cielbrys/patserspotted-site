@@ -39,25 +39,38 @@ body {
 }
 
 .wrapper{
-    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.header{
+    color: white;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 10rem;
+    font-size: 3rem;
 }
 
-.timer{
-    font-family: 'montserrat' ,Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 10rem;
-    background-color: white;
-    color: #1B1424;
-    margin-bottom: 5rem;
-    transform: translateY(-15rem);
-    text-align: center;
-    /*url('../assets/img/80sChromeTextEffect.png');*/
+.quote{
+    margin-top: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50rem;
+    margin-top: 2rem;
+}
+
+.nav__link{
+    color: gainsboro;
 
 }
 
