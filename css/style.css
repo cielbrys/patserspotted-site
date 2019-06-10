@@ -65,8 +65,9 @@ body {
 .nav{
     display: flex;
     justify-content: space-evenly;
-    width: 50rem;
+    width: 55rem;
     margin-top: 2rem;
+    font-size: 1.4rem;
 }
 
 .nav__link{
