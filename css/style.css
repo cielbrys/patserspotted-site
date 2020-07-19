@@ -82,6 +82,13 @@ body {
   align-items: center;
 }
 
+.mixtapes__title{
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+
 .icon {
   margin-bottom: 2vh;
   width: 10vw;
@@ -97,8 +104,27 @@ body {
   filter: invert(.5) sepia(1) saturate(5) hue-rotate(270deg);
 }
 
+.download:hover{
+  fill: lightblue;
+  filter: invert(.5) sepia(1) saturate(5) hue-rotate(270deg);
+}
+
 .header__img {
   width: 90vw;
+}
+
+.list{
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   line-height: 1.2;
+}
+
+.download{
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 @media only screen and (min-width: 720px) {
